@@ -11,7 +11,56 @@
 </head>
 
 <body>
-	<div>Something</div>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				
+				<div class="navbar-header">
+					<!-- Navbar logo image-->
+					<a href="index.html" class="pull-left">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<!-- Navbar Brand text -->
+					<div class="navbar-brand">
+						<h1>Bubaloo's Dinos</h1>
+					</div>
+					<!-- Navbar Toggle Menu Button -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+						<li>
+                			<a href="dinos.html">
+                  			 	Dinos
+                			</a>
+              			</li>
+              			<li>
+              				<a href="dino_types.html">
+              					Types
+          					</a>
+          				</li>
+              			<li>
+              				<a href="dino_foods.html">
+              					Foods
+          					</a>
+          				</li>
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+	</header>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

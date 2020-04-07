@@ -1,1 +1,143 @@
-sfsdf
+
+@font-face {
+	font-family: dinofont;
+	src: url(../fonts/Erasaur.otf) format("opentype");
+}
+
+
+/* ---  NAVBAR --- */
+.container {
+	padding-left: 0;
+	margin-left: 0;
+	margin-right: 0
+}
+#header-nav {
+	background-color: #E8AB07;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	border-radius: 0px;
+}
+
+
+.navbar-brand h1 {
+	color: #526A76;
+	font-family: dinofont;
+	margin-left: 10px;
+
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle { /*This adjusts the toggle button in-line with logo-img and brand */
+	clear: both;
+	margin-top: -45px;
+}
+
+#nav-list a {
+	text-align: center;
+}
+/* ---  END NAVBAR --- */
+
+
+
+
+/* --- BODY --- */
+body {
+	background-color: #526A76;
+}
+
+
+
+
+/************************* MEDIA QUERIES **************************/
+
+
+/*** LG DEVICE ***/
+@media (min-width: 1200px) {
+
+	#logo-img {
+		background: url('../images/trex_logo.png') no-repeat;
+		width: 140px;
+		height: 155px;
+	}
+	.navbar-header {
+		height: 155px;
+	}
+	.navbar-header h1 {
+		font-size: 2.5em;
+	}
+
+}
+
+
+/*** MD DEVICE ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#logo-img {
+		background: url('../images/trex_logo_med.png') no-repeat;
+		width: 113px;
+		height: 125px;
+	}
+	.navbar-header {
+		height: 125px;
+	}
+	.navbar-header h1 {
+		font-size: 2.0em;
+	}
+
+
+}
+
+
+/*** SM DEVICE ***/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#logo-img {
+		background: url('../images/trex_logo_sm.png') no-repeat;
+		width: 95px;
+		height: 105px;
+	}
+	.navbar-header {
+		height: 105px;
+	}
+	.navbar-header h1 {
+		font-size: 1.35em;
+	}
+
+}
+
+
+/*** XS DEVICE ***/
+@media (max-width: 767px) {
+	.container {
+		margin-left: 15px;
+	}
+	#logo-img {
+		background: url('../images/trex_logo_xsm.png') no-repeat;
+		width: 85px;
+		height: 94px;
+	}
+	.navbar-header {
+		height: 94px;
+	}
+	.navbar-header h1 {
+		font-size: 1.20em;
+	}
+}
+
+/*** EXTRA XS DEVICE ***/
+@media (max-width: 479px) {
+	#logo-img {
+		background: url('../images/trex_logo_xsm.png') no-repeat;
+		width: 85px;
+		height: 94px;
+	}
+	.navbar-header {
+		height: 150px;
+	}
+}
