@@ -26,6 +26,7 @@
 	color: #526A76;
 	font-family: dinofont;
 	margin-left: 10px;
+	text-shadow: 1px 1px 1px #222;
 
 }
 
@@ -35,7 +36,8 @@
 
 .navbar-header button.navbar-toggle { /*This adjusts the toggle button in-line with logo-img and brand */
 	clear: both;
-	margin-top: -45px;
+	margin-top: -40px;
+	margin-bottom: 0;
 }
 
 #nav-list a {
@@ -68,7 +70,7 @@ body {
 	.navbar-header {
 		height: 155px;
 	}
-	.navbar-header h1 {
+	.navbar-brand h1 {
 		font-size: 2.5em;
 	}
 
@@ -86,7 +88,7 @@ body {
 	.navbar-header {
 		height: 125px;
 	}
-	.navbar-header h1 {
+	.navbar-brand h1 {
 		font-size: 2.0em;
 	}
 
@@ -105,7 +107,7 @@ body {
 	.navbar-header {
 		height: 105px;
 	}
-	.navbar-header h1 {
+	.navbar-brand h1 {
 		font-size: 1.35em;
 	}
 
@@ -120,14 +122,15 @@ body {
 	#logo-img {
 		background: url('../images/trex_logo_xsm.png') no-repeat;
 		width: 85px;
-		height: 94px;
+		height: 92px;
 	}
 	.navbar-header {
-		height: 94px;
+		height: 92px;
 	}
-	.navbar-header h1 {
+	.navbar-brand h1 {
 		font-size: 1.20em;
 	}
+
 }
 
 /*** EXTRA XS DEVICE ***/
@@ -138,6 +141,9 @@ body {
 		height: 94px;
 	}
 	.navbar-header {
-		height: 150px;
+		height: 94px;
+	}
+	.navbar-brand h1{
+		margin-top: 0px;
 	}
 }
