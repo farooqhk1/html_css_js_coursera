@@ -16,30 +16,23 @@
 	border-radius: 0;
 	border: 0;
 }
-
 #logo-img {
 	border-radius: 0px;
 }
-
-
 .navbar-brand h1 {
 	color: #526A76;
 	font-family: dinofont;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-top: 8%;
 	text-shadow: 1px 1px 1px #222;
-
 }
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
 .navbar-header button.navbar-toggle { /*This adjusts the toggle button in-line with logo-img and brand */
 	clear: both;
-	margin-top: -40px;
+	margin-top: -38px;
+	margin-right: 5px;
 	margin-bottom: 0;
+	font-size: .5em;
 }
-
 #nav-list a {
 	text-align: center;
 }
@@ -72,6 +65,7 @@ body {
 	}
 	.navbar-brand h1 {
 		font-size: 2.5em;
+		margin-left: 30px;
 	}
 
 }
@@ -90,6 +84,7 @@ body {
 	}
 	.navbar-brand h1 {
 		font-size: 2.0em;
+		margin-left: 30px;
 	}
 
 
@@ -108,7 +103,8 @@ body {
 		height: 105px;
 	}
 	.navbar-brand h1 {
-		font-size: 1.35em;
+		font-size: 1.5em;
+		margin-left: 30px;
 	}
 
 }
@@ -143,7 +139,5 @@ body {
 	.navbar-header {
 		height: 94px;
 	}
-	.navbar-brand h1{
-		margin-top: 0px;
-	}
+
 }
